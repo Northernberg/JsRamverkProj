@@ -1,0 +1,48 @@
+{
+    "name": "soup-investor",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.4.1",
+        "bcrypt": "^3.0.6",
+        "chart.js": "^2.8.0",
+        "chromedriver": "^77.0.0",
+        "http-server": "^0.11.1",
+        "jwt-decode": "^2.2.0",
+        "marked": "^0.7.0",
+        "mocha": "^6.2.1",
+        "normalize.css": "^8.0.1",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "react-router-dom": "^5.0.1",
+        "react-scripts": "3.1.1",
+        "selenium-webdriver": "^3.6.0",
+        "socket.io-client": "^2.3.0",
+        "sqlite3": "^4.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "mocha test/**/*.js --timeout 10000",
+        "eject": "react-scripts eject",
+        "deploy": "npm run build && rsync -av build/* deploy@onlinesoppa.me:/var/www/meme-investor.onlinesoppa.me/html/"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "dotenv": "^8.1.0"
+    }
+}

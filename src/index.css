@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+
+@font-face {
+    font-family: 'CashFont';
+    src: urL('style/CashCurrency.ttf');
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-family: 'CashFont';
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas,
+        'Courier New', monospace;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    transition: width 2s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    margin: 6px;
+}
+/* 
+ul {
+  display: flex;
+  justify-content: space-evenly;
+} */

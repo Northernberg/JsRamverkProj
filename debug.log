@@ -1,0 +1,330 @@
+[1017/091705.141:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff621f90000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.145:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1017/091705.145:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38f60000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.145:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\ntdll.dll
+[1017/091705.145:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38830000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.146:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\KERNEL32.dll
+[1017/091705.146:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35240000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.146:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\KERNELBASE.dll
+[1017/091705.146:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2e150000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.146:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\77.0.3865.120\chrome_elf.dll
+[1017/091705.146:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2acd0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.146:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\VERSION.dll
+[1017/091705.146:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38770000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.146:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\msvcrt.dll
+[1017/091705.146:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35020000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.146:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\bcryptPrimitives.dll
+[1017/091705.146:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36c00000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.146:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\ADVAPI32.dll
+[1017/091705.146:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38e90000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.146:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\sechost.dll
+[1017/091705.146:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36920000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.146:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[1017/091705.146:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffacd8b0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\77.0.3865.120\chrome_child.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb389e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\OLEAUT32.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35740000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\msvcp_win.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35830000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\ucrtbase.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb382e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\combase.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38d60000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\WS2_32.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847550000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\GDI32.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb350a0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\gdi32full.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb362f0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\USER32.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb359e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\win32u.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35500000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\WINTRUST.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34f50000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.147:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\MSASN1.dll
+[1017/091705.147:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35560000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\CRYPT32.dll
+[1017/091705.148:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb344e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+[1017/091705.148:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb31900000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMM.dll
+[1017/091705.148:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34e80000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\USERENV.dll
+[1017/091705.148:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34f70000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\profapi.dll
+[1017/091705.148:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb0f090000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\DWrite.dll
+[1017/091705.148:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb1e310000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+[1017/091705.148:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34fa0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\kernel.appcore.dll
+[1017/091705.148:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36150000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\bcrypt.dll
+[1017/091705.148:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb33740000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.148:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\dbghelp.dll
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb29130000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINHTTP.dll
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb19440000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\Secur32.dll
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2aec0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36230000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\NSI.dll
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb318d0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb357e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\cfgmgr32.dll
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb311c0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\PROPSYS.dll
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36240000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\shcore.dll
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34e50000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\SSPICLI.DLL
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38ca0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\IMM32.DLL
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38610000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\ole32.dll
+[1017/091705.149:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34990000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.149:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff621f90000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38f60000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\ntdll.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38830000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\KERNEL32.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35240000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\KERNELBASE.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2e150000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\77.0.3865.120\chrome_elf.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2acd0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\VERSION.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38770000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\msvcrt.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35020000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\bcryptPrimitives.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36c00000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\ADVAPI32.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38e90000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\sechost.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36920000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[1017/091705.150:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffacd8b0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.150:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\77.0.3865.120\chrome_child.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb389e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\OLEAUT32.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35740000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\msvcp_win.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35830000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\ucrtbase.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb382e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\combase.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38d60000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\WS2_32.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847550000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\GDI32.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb350a0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\gdi32full.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb362f0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\USER32.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb359e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\win32u.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35500000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\WINTRUST.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34f50000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\MSASN1.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb35560000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\CRYPT32.dll
+[1017/091705.151:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb344e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.151:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb31900000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMM.dll
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34e80000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\USERENV.dll
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34f70000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\profapi.dll
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb0f090000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\DWrite.dll
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb1e310000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34fa0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\kernel.appcore.dll
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36150000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\bcrypt.dll
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb33740000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\dbghelp.dll
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb29130000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINHTTP.dll
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb19440000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\Secur32.dll
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2aec0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+[1017/091705.152:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36230000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.152:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\NSI.dll
+[1017/091705.153:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb318d0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.153:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+[1017/091705.153:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb357e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.153:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\cfgmgr32.dll
+[1017/091705.153:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb311c0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.153:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\PROPSYS.dll
+[1017/091705.153:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb36240000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.153:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\shcore.dll
+[1017/091705.153:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34e50000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.153:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\SSPICLI.DLL
+[1017/091705.153:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38ca0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.153:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\IMM32.DLL
+[1017/091705.153:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38610000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.153:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\ole32.dll
+[1017/091705.153:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb34990000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.153:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+[1017/091705.166:ERROR:process_memory_win.cc(73)] ReadMemory at 0x949bed000 of 77824 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.166:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94a3fd000 of 12288 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.166:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94abfd000 of 12288 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.166:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94b3fc000 of 16384 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.166:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94bbfc000 of 16384 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.167:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94c3ff000 of 4096 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.167:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94cbfd000 of 12288 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.167:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94d3fd000 of 12288 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.167:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94dbfd000 of 12288 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.167:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94e3fd000 of 12288 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.168:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94ebfd000 of 12288 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.168:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94f3fd000 of 12288 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.168:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94fbfd000 of 12288 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.168:ERROR:process_memory_win.cc(73)] ReadMemory at 0x949238000 of 852 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.168:ERROR:process_memory_win.cc(73)] ReadMemory at 0x949239000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.168:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94923b000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.169:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94923d000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.169:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94923f000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.169:ERROR:process_memory_win.cc(73)] ReadMemory at 0x949241000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.169:ERROR:process_memory_win.cc(73)] ReadMemory at 0x949243000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.169:ERROR:process_memory_win.cc(73)] ReadMemory at 0x949245000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.169:ERROR:process_memory_win.cc(73)] ReadMemory at 0x949247000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.170:ERROR:process_memory_win.cc(73)] ReadMemory at 0x949249000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.170:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94924b000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.170:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94924d000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.170:ERROR:process_memory_win.cc(73)] ReadMemory at 0x94924f000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.170:ERROR:process_memory_win.cc(73)] ReadMemory at 0x949251000 of 6024 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.170:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847340fe0 of 24134 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.170:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847346e30 of 1012 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.170:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847347458 of 118 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.170:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473474d0 of 910 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847347860 of 118 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473478d8 of 94 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847347950 of 58 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847347a50 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847347be0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847347da0 of 126 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847348090 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847348980 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847348b10 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.171:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847348b60 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847348f70 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847349100 of 68 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735375c of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847353ce0 of 80 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473545b0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473547c0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847354c20 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847357190 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847357280 of 60 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473572d0 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.172:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847357640 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.173:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473576e0 of 60 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.173:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847357880 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.173:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473579b0 of 154 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.173:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847358320 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.173:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847358450 of 158 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.173:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473585f0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.173:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473594c0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.173:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473595f0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.173:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847359720 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.174:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847359850 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.174:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847359980 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.174:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847359ab0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.174:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847359d10 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.177:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847359e40 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.177:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847359f70 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.177:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735a0a0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.177:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735a1d0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.177:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735a300 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.177:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735bba0 of 60 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.178:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735bbf0 of 66 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.178:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735bce0 of 60 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.178:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735bd30 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.178:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735bdd0 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.178:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735be70 of 66 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.178:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735bec0 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.178:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735bfb0 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.178:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c000 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.178:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c140 of 60 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c230 of 60 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c280 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c410 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c460 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c4b0 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c500 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c550 of 58 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c5a0 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c640 of 60 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.179:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c690 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.180:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c6e0 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.180:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c730 of 60 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.180:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c7d0 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.181:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c820 of 66 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.181:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c910 of 60 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.181:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735c9b0 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.181:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735ca00 of 62 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.181:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735caa0 of 58 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.181:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735da00 of 76 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.181:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684735ee00 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.182:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473600d0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.182:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847360420 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.182:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847362160 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.182:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847362290 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.183:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473623c0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.183:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847362620 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.183:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847362750 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.183:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847362880 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.183:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473629b0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.184:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847362c10 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.184:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847362d40 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.184:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847362e70 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.184:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847362fa0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.184:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847363200 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.184:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847363330 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.184:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847363590 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.184:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473636c0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.184:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168473637f0 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.185:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847363920 of 132 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.185:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847364f00 of 54 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.185:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684736eba0 of 58 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.185:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684736ec90 of 58 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.185:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847383400 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.185:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847384530 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.185:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168475b0e80 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.186:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847aa6b40 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.186:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847aa71a0 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.187:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847aaa330 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.188:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847aadcc0 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.188:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16847aec200 of 712 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.188:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16849853960 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.188:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16849860a68 of 944 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.188:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16849860ee8 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.188:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16849879b30 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1684987b0d0 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168499392c8 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x168499ad670 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x16849c642d0 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffacf2e6b5c of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffacfa57602 of 553 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb388521f0 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38faff00 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38fff764 of 672 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb38fffd64 of 512 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb39002ff4 of 608 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.189:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb3908c0c8 of 18 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.193:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb390bf4f8 of 40 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.194:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb390bf978 of 48 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.194:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb390c53a0 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[1017/091705.196:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Ett försök gjordes att använda en befintlig process. (0xc000010a)
