@@ -1,9 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { makeStyles } from '@material-ui/core';
+import { makeStyles, useMediaQuery } from '@material-ui/core';
+import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
+import EnhancedEncryptionIcon from '@material-ui/icons/EnhancedEncryption';
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
 const style = makeStyles(() => ({
     navbar: {
+        flexWrap: 'wrap',
         fontFamily: 'CashFont',
         padding: 5,
         marginBottom: 16,
@@ -50,11 +54,59 @@ const style = makeStyles(() => ({
             color: 'black',
         },
     },
+    bottomNavbar: {
+        position: 'fixed',
+        fontFamily: 'CashFont',
+        width: '100%',
+        bottom: 0,
+        backgroundColor: 'royalblue',
+        '& ul': {
+            display: 'flex',
+            justifyContent: 'space-evenly',
+        },
+    },
 }));
 
 export const Navbar = props => {
     const classes = style();
-    return (
+    const mobile = useMediaQuery('(max-width: 600px)');
+    return mobile ? (
+        <div className={classes.bottomNavbar}>
+            <ul>
+                <li>
+                    <AccountBalanceIcon> </AccountBalanceIcon>
+                    <NavLink exact activeClassName="Active" to="/">
+                        Home
+                    </NavLink>
+                </li>
+                <li>
+                    {props.auth ? (
+                        <div>
+                            <ExitToAppIcon> </ExitToAppIcon>
+                            <NavLink
+                                to="/login"
+                                onClick={props.logout}
+                            >
+                                Logout
+                            </NavLink>
+                        </div>
+                    ) : (
+                        <div>
+                            <EnhancedEncryptionIcon>
+                                {' '}
+                            </EnhancedEncryptionIcon>
+                            <NavLink
+                                activeClassName="Active"
+                                to="/login"
+                            >
+                                Login
+                            </NavLink>
+                        </div>
+                    )}
+                </li>
+            </ul>
+        </div>
+    ) : (
         <div className={classes.navbar}>
             <div className={classes.logo}>
                 {' '}

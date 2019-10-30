@@ -125,6 +125,20 @@ export const DialogComponent = props => {
             })
             .then(res => {
                 console.log(res);
+                props.setUserStocks({
+                    ...props.userStocks,
+                    balance:
+                        props.userStocks.balance - res.value.price,
+                });
+                props.socket.on('Broadcast', () => {
+                    props.setStockOrder({
+                        ...props.stockOrder,
+                        totalPrice:
+                            res.value.price * props.stockOrder.amount,
+                        price: res.value.price,
+                    });
+                });
+                props.socket.emit('Update stock', res);
             })
             .catch(err => {
                 console.error(err);
@@ -149,20 +163,25 @@ export const DialogComponent = props => {
             })
             .then(res => {
                 console.log(res);
+                props.setUserStocks({
+                    ...props.userStocks,
+                    balance:
+                        props.userStocks.balance + res.value.price,
+                });
+                props.socket.on('broadcast', () => {
+                    props.setStockOrder({
+                        ...props.stockOrder,
+                        totalPrice:
+                            res.value.price * props.stockOrder.amount,
+                        price: res.value.price,
+                    });
+                });
+                props.socket.emit('Update stock', res);
             })
             .catch(err => {
                 console.error(err);
             });
     };
-    useEffect(() => {
-        props.setStockOrder({
-            ...props.stockOrder,
-            totalPrice:
-                parseInt(props.stockOrder.price) *
-                parseInt(props.stockOrder.qty),
-            amount: parseInt(props.stockOrder.qty),
-        });
-    }, []);
     return (
         <div>
             <Dialog

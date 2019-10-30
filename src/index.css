@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @font-face {
     font-family: 'CashFont';
     src: urL('style/CashCurrency.ttf');
@@ -11,6 +11,8 @@ body {
         'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 200px;
 }
 
 h1 {

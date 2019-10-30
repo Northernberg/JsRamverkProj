@@ -10,13 +10,14 @@ import {
     Button,
     Box,
     CircularProgress,
+    Grid,
 } from '@material-ui/core';
 import { NavLink } from 'react-router-dom';
 import '../style/Home.css';
 import { DialogComponent } from '../DialogComponent.js';
 import { MoneyDialog } from '../MoneyDialog.js';
+import io from 'socket.io-client';
 const jwt_decode = require('jwt-decode');
-
 const style = makeStyles(() => ({
     table: {
         overflow: 'auto',
@@ -53,7 +54,6 @@ const style = makeStyles(() => ({
         justifyContent: 'space-between',
     },
     balance: {
-        fontFamily: 'CashFont',
         fontSize: '5em',
     },
     progress: {
@@ -62,6 +62,7 @@ const style = makeStyles(() => ({
     },
 }));
 
+let socket;
 export const Home = props => {
     const classes = style();
     const [stockList, setStockList] = useState({
@@ -85,6 +86,9 @@ export const Home = props => {
     });
     const [moneyDialog, setMoneyDialog] = useState(0);
     useEffect(() => {
+        socket = io(process.env.REACT_APP_SOCKET_ENDPOINT, {
+            reconnectionAttempts: 2,
+        });
         fetch(process.env.REACT_APP_API_ENDPOINT + '/objects', {
             method: 'GET',
             headers: {
@@ -103,6 +107,20 @@ export const Home = props => {
                 setLoading(true);
                 setStockList({
                     objects: res,
+                });
+
+                socket.on('broadcast', update => {
+                    //Set userlist UPDATE PRICES YES
+                    const index = res.findIndex(x => {
+                        return x.name === update.name;
+                    });
+                    console.log(index);
+                    const list = res;
+                    console.log(list);
+                    list[index] = update;
+                    setStockList({
+                        objects: list,
+                    });
                 });
             })
             .catch(err => {
@@ -141,6 +159,9 @@ export const Home = props => {
             });
     }, []);
     const handleClick = (obj, type) => {
+        obj = stockList.objects.filter(x => {
+            return x.name === obj.name;
+        })[0];
         console.log(obj);
         setStockOrder({
             ...stockOrder,
@@ -159,7 +180,7 @@ export const Home = props => {
         setMoneyDialog(1);
     };
     return (
-        <Container maxWidth="md">
+        <Container fixed>
             {!loading && (
                 <div className={classes.progress}>
                     <CircularProgress size={100} />
@@ -198,6 +219,7 @@ export const Home = props => {
                                     onClick={() =>
                                         handleClick(obj, 'Sell')
                                     }
+                                    disabled={obj.qty === 0}
                                 >
                                     Sell
                                 </Button>
@@ -214,7 +236,7 @@ export const Home = props => {
                     ))}
                 </Box>
             </div>
-            <div className={classes.container}>
+            <Grid item xs={12} className={classes.container}>
                 <h1> Market </h1>
 
                 <Table className={classes.table}>
@@ -257,28 +279,37 @@ export const Home = props => {
                                     </div>
                                 </TableCell>
                                 <TableCell align="left" width="150px">
-                                    {obj.name}
+                                    <NavLink
+                                        to={`/stock/${obj.name}`}
+                                    >
+                                        {obj.name}
+                                    </NavLink>
                                 </TableCell>
                                 <TableCell align="left">
                                     {obj.qty}
                                 </TableCell>
                                 <TableCell align="left">
-                                    ${obj.price}
+                                    ${obj.price.toFixed(2)}
                                 </TableCell>
                             </TableRow>
                         ))}
                     </TableBody>
                 </Table>
-            </div>
+            </Grid>
             <DialogComponent
                 setdialog={setdialog}
                 dialog={dialog}
                 setStockOrder={setStockOrder}
                 stockOrder={stockOrder}
+                socket={socket}
+                userStocks={userStocks}
+                setUserStocks={setUserStocks}
             ></DialogComponent>
             <MoneyDialog
                 setdialog={setMoneyDialog}
                 dialog={moneyDialog}
+                userStocks={userStocks}
+                setUserStocks={setUserStocks}
             ></MoneyDialog>
         </Container>
     );

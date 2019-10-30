@@ -100,6 +100,10 @@ export const MoneyDialog = props => {
                 return res.json();
             })
             .then(res => {
+                props.setUserStocks({
+                    ...props.userStocks,
+                    balance: props.userStocks.balance + 500,
+                });
                 console.log(res);
             })
             .catch(err => {

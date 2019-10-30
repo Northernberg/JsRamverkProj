@@ -8,6 +8,7 @@ import {
     Container,
 } from '@material-ui/core';
 import { LineChart } from '../LineChart';
+import io from 'socket.io-client';
 
 const useStyles = makeStyles(() => ({
     container: {
@@ -33,10 +34,12 @@ const useStyles = makeStyles(() => ({
     },
 }));
 
+let socket;
 export const StockView = ({ match }) => {
     const classes = useStyles();
     const [stockData, setStockData] = useState(0);
     useEffect(() => {
+        socket = io(process.env.REACT_APP_SOCKET_ENDPOINT);
         fetch(process.env.REACT_APP_API_ENDPOINT + '/objects/find', {
             method: 'POST',
             body: JSON.stringify({ name: match.params.name }),
@@ -55,10 +58,17 @@ export const StockView = ({ match }) => {
             .then(res => {
                 console.log(res);
                 setStockData(res[0]);
+                socket.on('broadcast', update => {
+                    //Set userlist UPDATE PRICES YES
+                    if (update.name === res[0].name) {
+                        setStockData(update);
+                    }
+                });
             })
             .catch(err => {
                 console.error(err);
             });
+        socket.on('');
     }, []);
     console.log(stockData);
     return (
@@ -67,7 +77,8 @@ export const StockView = ({ match }) => {
             {stockData ? (
                 <LineChart
                     data={stockData.history}
-                    color="black"
+                    color="rgba(0, 150, 64, 0.1)"
+                    lineColor="rgb(0, 150, 64)"
                 ></LineChart>
             ) : (
                 ''

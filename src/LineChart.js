@@ -14,10 +14,18 @@ export const LineChart = props => {
                         label: 'Market Value',
                         data: props.data.map(d => d.value),
                         backgroundColor: props.color,
+                        tension: 0,
                     },
                 ],
             },
+            options: {
+                elements: {
+                    line: {
+                        borderColor: props.lineColor,
+                    },
+                },
+            },
         });
-    }, []);
+    }, [props]);
     return <canvas ref={chartRef}> </canvas>;
 };
