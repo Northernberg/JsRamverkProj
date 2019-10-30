@@ -39,7 +39,9 @@ export const StockView = ({ match }) => {
     const classes = useStyles();
     const [stockData, setStockData] = useState(0);
     useEffect(() => {
-        socket = io(process.env.REACT_APP_SOCKET_ENDPOINT);
+        socket = io(process.env.REACT_APP_SOCKET_ENDPOINT, {
+            reconnectionAttempts: 2,
+        });
         fetch(process.env.REACT_APP_API_ENDPOINT + '/objects/find', {
             method: 'POST',
             body: JSON.stringify({ name: match.params.name }),

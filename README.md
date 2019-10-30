@@ -1,9 +1,10 @@
-[![Build Status](https://travis-ci.org/Northernberg/Jsramverk.svg?branch=master)](https://travis-ci.org/Northernberg/Jsramverk)
+[![Build Status](https://travis-ci.org/Northernberg/Jsramverk.svg?branch=master)](https://travis-ci.org/Northernberg/JsramverkProj)
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Northernberg/Jsramverk/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Northernberg/Jsramverk/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/Northernberg/Jsramverk/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Northernberg/Jsramverk/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Northernberg/Jsramverk/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Northernberg/JsramverkProj/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/Northernberg/Jsramverk/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Northernberg/JsramverkProj/build-status/master)
 
 Clone the repository:
+
 ### Git Clone git@github.com:Northernberg/Jsramverk.git
 
 Install all dependencies via npm

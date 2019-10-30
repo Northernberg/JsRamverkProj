@@ -115,6 +115,7 @@ export const DialogComponent = props => {
             },
             body: JSON.stringify({
                 ...props.stockOrder,
+                time: new Date().toLocaleTimeString().slice(0, -3),
                 email: localStorage.getItem('JWT')
                     ? jwt_decode(localStorage.getItem('JWT')).email
                     : '',
@@ -153,6 +154,7 @@ export const DialogComponent = props => {
             },
             body: JSON.stringify({
                 ...props.stockOrder,
+                time: new Date().toLocaleTimeString().slice(0, -3),
                 email: localStorage.getItem('JWT')
                     ? jwt_decode(localStorage.getItem('JWT')).email
                     : '',
