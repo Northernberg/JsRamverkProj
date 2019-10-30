@@ -3,18 +3,24 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Northernberg/Jsramverk/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Northernberg/JsramverkProj/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/Northernberg/Jsramverk/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Northernberg/JsramverkProj/build-status/master)
 
-Clone the repository:
+# Setup
 
-### Git Clone git@github.com:Northernberg/Jsramverk.git
+```
+git clone https://github.com/Northernberg/JsRamverkProj-Backend.git
+npm install
+```
 
-Install all dependencies via npm
+# Start application
 
-### `npm install`
+`Node app.js`
 
-Run application with:
+# Tools
 
-### `npm start`
+## React
 
-The application will now be running at
+I used React Framework to create my frontend. I chose this to work with a new Framework and because of it's current rise in popularity.
+It is very modular, which I thought would be key when creating something you haven't done before.
 
-### http://localhost:3000/
+# Websocket
+
+I used socket io client to implement a websocket towards the backend API. It sends a update on the stock price and a timestamp to the socket, which is then emitted towards all the connected clients. In the detailed stock view page the user will see a live updated graph of the growth in the stock. I chose socket Io because of it's simplicity and simply having prior knowledge.
