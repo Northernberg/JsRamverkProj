@@ -6,7 +6,7 @@
 # Setup
 
 ```
-git clone https://github.com/Northernberg/JsRamverkProj-Backend.git
+git clone https://github.com/Northernberg/JsRamverkProj.git
 npm install
 ```
 
