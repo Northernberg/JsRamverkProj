@@ -54,12 +54,13 @@ export const Registration = () => {
     function handleSubmit(event) {
         event.preventDefault();
         let valid = true;
-
+        let today = new Date();
         valid =
             formValues.firstname.length > 0 &&
             formValues.lastname.length > 0 &&
             formValues.email.length > 0 &&
-            formValues.password.length > 0;
+            formValues.password.length > 0 &&
+            today.getFullYear() - formValues.year > 18;
 
         Object.values(formValues.errors).forEach(
             val => val.length > 0 && (valid = false),
