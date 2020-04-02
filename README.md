@@ -14,6 +14,8 @@ npm install
 
 `node app.js`
 
+# Access app at:
+`localhost:3000`
 # Tools
 
 ## React
