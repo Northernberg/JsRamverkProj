@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
     Dialog,
     Button,
-    TextField,
     makeStyles,
-    Box,
     DialogTitle,
 } from '@material-ui/core';
 const jwt_decode = require('jwt-decode');
@@ -52,34 +50,8 @@ const style = makeStyles(() => ({
 }));
 export const MoneyDialog = props => {
     const classes = style();
-    const [errorText, setErrorText] = useState({
-        text: '',
-        isError: false,
-    });
     const handleClose = e => {
         props.setdialog(0);
-    };
-    const handleAmount = e => {
-        if (
-            e.target.value >= props.stockOrder.maxAmount ||
-            e.target.value < 1
-        ) {
-            setErrorText({
-                text: 'Max limit reached',
-                isError: true,
-            });
-        } else {
-            setErrorText({
-                isError: false,
-            });
-        }
-        props.setStockOrder({
-            ...props.stockOrder,
-            totalPrice:
-                parseInt(props.stockOrder.price) *
-                parseInt(e.target.value),
-            amount: parseInt(e.target.value),
-        });
     };
     const handleClick = () => {
         fetch(

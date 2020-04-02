@@ -12,7 +12,7 @@ npm install
 
 # Start application
 
-`Node app.js`
+`node app.js`
 
 # Tools
 

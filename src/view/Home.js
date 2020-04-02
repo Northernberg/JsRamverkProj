@@ -17,7 +17,9 @@ import '../style/Home.css';
 import { DialogComponent } from '../DialogComponent.js';
 import { MoneyDialog } from '../MoneyDialog.js';
 import io from 'socket.io-client';
+
 const jwt_decode = require('jwt-decode');
+
 const style = makeStyles(() => ({
     table: {
         overflow: 'auto',
@@ -69,6 +71,7 @@ export const Home = props => {
         objects: [],
     });
     const [userStocks, setUserStocks] = useState({
+        balance: 0,
         objects: [],
     });
     const [loading, setLoading] = useState(0);
@@ -84,7 +87,7 @@ export const Home = props => {
         img: '',
         totalPrice: 0,
     });
-    const [moneyDialog, setMoneyDialog] = useState(0);
+    const [moneyDialog, setMoneyDialog] = useState(false);
     useEffect(() => {
         socket = io(process.env.REACT_APP_SOCKET_ENDPOINT, {
             reconnectionAttempts: 2,
@@ -93,6 +96,7 @@ export const Home = props => {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
+                'x-access-token': localStorage.getItem('JWT'),
             },
         })
             .then(res => {
@@ -148,11 +152,11 @@ export const Home = props => {
             })
             .then(res => {
                 console.log(res);
-                setLoading(true);
                 setUserStocks({
                     balance: res[0].balance,
                     objects: res[0].stocks,
                 });
+                setLoading(true);
             })
             .catch(err => {
                 console.error(err);
@@ -177,65 +181,76 @@ export const Home = props => {
         });
     };
     const handleMoney = () => {
-        setMoneyDialog(1);
+        setMoneyDialog(true);
     };
+    console.log(userStocks);
     return (
         <Container fixed>
-            {!loading && (
+            {!loading ? (
                 <div className={classes.progress}>
                     <CircularProgress size={100} />
                 </div>
-            )}
-            <div className={classes.container}>
-                <h1> Your inventory</h1>
-
-                <Box>
-                    <p className={classes.balance}>
-                        {' '}
-                        ${userStocks.balance}{' '}
-                    </p>
-                    <Button
-                        variant="outlined"
-                        width="50%"
-                        onClick={handleMoney}
-                    >
-                        Add moneyz
-                    </Button>
-                </Box>
-                <Box className={classes.stockList}>
-                    {userStocks.objects.map(obj => (
-                        <Box className={classes.stock}>
-                            <h2>
-                                {' '}
-                                <NavLink to={`/stock/${obj.name}`}>
-                                    {obj.name}
-                                </NavLink>
-                            </h2>
-                            <h2> Qty: {obj.qty}</h2>
-                            <div>
-                                <Button
-                                    variant="outlined"
-                                    width="50%"
-                                    onClick={() =>
-                                        handleClick(obj, 'Sell')
-                                    }
-                                    disabled={obj.qty === 0}
+            ) : (
+                <div className={classes.container}>
+                    <h1> Your inventory</h1>
+                    <Box>
+                        <p className={classes.balance}>
+                            {' '}
+                            ${userStocks.balance}{' '}
+                        </p>
+                        <Button
+                            variant="outlined"
+                            width="50%"
+                            onClick={handleMoney}
+                        >
+                            Add money
+                        </Button>
+                    </Box>
+                    {typeof userStocks.objects != 'undefined' && (
+                        <Box className={classes.stockList}>
+                            {userStocks.objects.map(obj => (
+                                <Box
+                                    className={classes.stock}
+                                    key={obj.name}
                                 >
-                                    Sell
-                                </Button>
-                                <img
-                                    src={require('../assets/' +
-                                        obj.img)}
-                                    alt="object"
-                                    width="50px"
-                                    height="50px"
-                                    className={classes.img}
-                                ></img>
-                            </div>
+                                    <h2>
+                                        {' '}
+                                        <NavLink
+                                            to={`/stock/${obj.name}`}
+                                        >
+                                            {obj.name}
+                                        </NavLink>
+                                    </h2>
+                                    <h2> Qty: {obj.qty}</h2>
+                                    <div>
+                                        <Button
+                                            variant="outlined"
+                                            width="50%"
+                                            onClick={() =>
+                                                handleClick(
+                                                    obj,
+                                                    'Sell',
+                                                )
+                                            }
+                                            disabled={obj.qty === 0}
+                                        >
+                                            Sell
+                                        </Button>
+                                        <img
+                                            src={require('../assets/' +
+                                                obj.img)}
+                                            alt="object"
+                                            width="50px"
+                                            height="50px"
+                                            className={classes.img}
+                                        ></img>
+                                    </div>
+                                </Box>
+                            ))}
                         </Box>
-                    ))}
-                </Box>
-            </div>
+                    )}
+                </div>
+            )}
             <Grid item xs={12} className={classes.container}>
                 <h1> Market </h1>
 
@@ -254,7 +269,7 @@ export const Home = props => {
                     </TableHead>
                     <TableBody>
                         {stockList.objects.map(obj => (
-                            <TableRow>
+                            <TableRow key={obj.name}>
                                 <TableCell align="left" width="300px">
                                     <div className={classes.flex}>
                                         <Button

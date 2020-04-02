@@ -30,7 +30,17 @@ const Routing = () => {
             {auth ? (
                 <Route exact path="/" component={Home} />
             ) : (
-                <Route exact path="/" component={Login} />
+                <Route
+                    exact
+                    path="/"
+                    render={props => (
+                        <Login
+                            {...props}
+                            login={login}
+                            component={Login}
+                        />
+                    )}
+                />
             )}
             <Route
                 path="/login"

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
     Dialog,
     Button,
@@ -126,10 +126,18 @@ export const DialogComponent = props => {
             })
             .then(res => {
                 console.log(res);
+                // Change qty of item bought
+                let index = props.userStocks.objects.findIndex(
+                    e => e.name === props.stockOrder.name,
+                );
+                let obj = props.userStocks.objects;
+                obj[index].qty += props.stockOrder.amount;
                 props.setUserStocks({
                     ...props.userStocks,
                     balance:
-                        props.userStocks.balance - res.value.price,
+                        props.userStocks.balance -
+                        props.stockOrder.totalPrice,
+                    objects: obj,
                 });
                 props.socket.on('Broadcast', () => {
                     props.setStockOrder({
@@ -165,10 +173,19 @@ export const DialogComponent = props => {
             })
             .then(res => {
                 console.log(res);
+                // Change qty of item sold
+                let index = props.userStocks.objects.findIndex(
+                    e => e.name === props.stockOrder.name,
+                );
+                let obj = props.userStocks.objects;
+                obj[index].qty -= props.stockOrder.amount;
+
                 props.setUserStocks({
                     ...props.userStocks,
                     balance:
-                        props.userStocks.balance + res.value.price,
+                        props.userStocks.balance +
+                        props.stockOrder.totalPrice,
+                    objects: obj,
                 });
                 props.socket.on('broadcast', () => {
                     props.setStockOrder({

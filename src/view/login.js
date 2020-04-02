@@ -22,10 +22,14 @@ const useStyles = makeStyles(() => ({
         display: 'flex',
         flexDirection: 'column',
     },
+    error: {
+        color: 'red',
+    },
 }));
 
 export const Login = props => {
     const classes = useStyles();
+    const [error, setError] = useState(false);
     const [formValues, setValues] = useState({
         email: '',
         password: '',
@@ -62,7 +66,10 @@ export const Login = props => {
                 props.login();
                 props.history.push('/');
             })
-            .catch(err => console.error(err));
+            .catch(err => {
+                setError(true);
+                console.error(err);
+            });
     }
     return (
         <Container maxWidth="md">
@@ -92,6 +99,12 @@ export const Login = props => {
                 >
                     Submit
                 </Button>
+                {error && (
+                    <p class={classes.error}>
+                        {' '}
+                        Wrong username or password{' '}
+                    </p>
+                )}
                 <NavLink activeClassName="Active" to="/register">
                     Register here
                 </NavLink>

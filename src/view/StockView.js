@@ -1,42 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Redirect } from 'react-router-dom';
-import {
-    Button,
-    TextField,
-    makeStyles,
-    Grid,
-    Container,
-} from '@material-ui/core';
+import { Container } from '@material-ui/core';
 import { LineChart } from '../LineChart';
 import io from 'socket.io-client';
 
-const useStyles = makeStyles(() => ({
-    container: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'space-between',
-    },
-    textField: {
-        maxWidth: 200,
-    },
-    menu: {
-        width: 100,
-        display: 'flex',
-        flexWrap: 'wrap',
-    },
-    form: {
-        maxWidth: 400,
-        display: 'flex',
-        flexDirection: 'column',
-    },
-    error: {
-        color: 'red',
-    },
-}));
-
 let socket;
 export const StockView = ({ match }) => {
-    const classes = useStyles();
     const [stockData, setStockData] = useState(0);
     useEffect(() => {
         socket = io(process.env.REACT_APP_SOCKET_ENDPOINT, {
@@ -71,7 +39,7 @@ export const StockView = ({ match }) => {
                 console.error(err);
             });
         socket.on('');
-    }, []);
+    }, [match.params.name]);
     console.log(stockData);
     return (
         <Container maxWidth="md">
