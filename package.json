@@ -10,7 +10,7 @@
         "chromedriver": "^77.0.0",
         "http-server": "^0.11.1",
         "jwt-decode": "^2.2.0",
-        "marked": "^0.7.0",
+        "marked": "^4.0.10",
         "mocha": "^6.2.1",
         "normalize.css": "^8.0.1",
         "react": "^16.9.0",
